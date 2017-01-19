@@ -1413,13 +1413,8 @@ module.exports = [
     country: 'United States of America'
     , alpha2: 'US'
     , alpha3: 'USA'
-    , numeric: '840'
-  },
-  {
-    country: 'United States'
-    , alpha2: 'US'
-    , alpha3: 'USA'
-    , numeric: '840'
+    , numeric: '840',
+    matchAs: 'United States'
   },
   {
     country: 'United States Minor Outlying Islands'

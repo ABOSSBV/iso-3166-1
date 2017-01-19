@@ -4,7 +4,9 @@ exports.whereCountry = function (name) {
   name = name.toUpperCase();
 
   return iso.filter(function (country) {
-    return country.country.toUpperCase() === name;
+    return (country.country.toUpperCase() === name.trim() || (
+      country.matchAs && country.matchAs.toUpperCase() === name.trim()
+    ));
   })[0];
 }
 
