@@ -1416,6 +1416,12 @@ module.exports = [
     , numeric: '840'
   },
   {
+    country: 'United States'
+    , alpha2: 'US'
+    , alpha3: 'USA'
+    , numeric: '840'
+  },
+  {
     country: 'United States Minor Outlying Islands'
     , alpha2: 'UM'
     , alpha3: 'UMI'
