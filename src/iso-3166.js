@@ -1407,7 +1407,8 @@ module.exports = [
     country: 'United Kingdom of Great Britain and Northern Ireland'
     , alpha2: 'GB'
     , alpha3: 'GBR'
-    , numeric: '826'
+    , numeric: '826',
+    matchAs: 'United Kingdom'
   },
   {
     country: 'United States of America'
